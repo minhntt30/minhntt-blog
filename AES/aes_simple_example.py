@@ -204,14 +204,14 @@ def aes_decrypt(ciphertext, key):
 
     # Main rounds
     for round in range(9, 0, -1):
-        state = inv_shift_rows(state)
         state = inv_sub_bytes(state)
+        state = inv_shift_rows(state)
         state = add_round_key(state, round_keys[round])
         state = inv_mix_columns(state)
 
     # Final round
-    state = inv_shift_rows(state)
     state = inv_sub_bytes(state)
+    state = inv_shift_rows(state)
     state = add_round_key(state, round_keys[0])
 
     # Convert the final state matrix to a string
