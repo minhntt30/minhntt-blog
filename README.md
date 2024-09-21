@@ -1,4 +1,4 @@
-- 👋 Hi, I’m minhtt, an embedded engineer with over 10 years of experience in designing and developing embedded systems for various applications.
+- 👋 Hi, I’m minhtt, an embedded engineer with over 8 years of experience in designing and developing embedded systems for various applications.
 - 🚀 On this website, I share my insights, tips, and best practices on:
   - Embedded engineering: hardware, software, tools, and techniques
   - Other engineering topics: GUI, IoT, Cryptography, AI, and more
